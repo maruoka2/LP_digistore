@@ -1,0 +1,16 @@
+#AuthType Digest
+#AuthName "Digest Auth"
+#AuthUserFile "/var/www/app/.htdigest"
+#Require valid-user
+
+DirectoryIndex index.html index.htm index.php index.cgi
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule (.*) %{ENV:REWRITEBASE}index.php [L]
+
+</IfModule>

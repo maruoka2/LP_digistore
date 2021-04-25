@@ -1,0 +1,369 @@
+/* レスポンシブ共通   スマホファースト */
+/* フォント一括管理 */
+.fontsize-1{
+    font-size: 30px;
+}
+.fontsize-2{
+    font-size: 24px;
+}
+.fontsize-3{
+    font-size: 18px;
+}
+.fontsize-4{
+    font-size: 16px;
+}
+.fontsize-5{
+    font-size: 14px;
+}
+.fontsize-6{
+    font-size: 11px;
+}
+
+/* 文字色一括管理 */
+.green-black{
+    color: #13231F;
+}
+.green-deep{
+    color: #3E9D9B;
+}
+.green-light{
+    color: #11BC9D;
+}
+.green-white{
+    color: #EDF6F6;
+}
+.gray{
+    color: #D3D3D3;
+}
+.pink{
+    color: #F072D4;
+}
+.white{
+    color: white;
+}
+
+/* 背景色一括管理 */
+.bg-green-black{
+    background-color: #2D2D2D;
+}
+.bg-green-deep{
+    background-color: #3E9D9B;
+}
+.bg-green-light{
+    background-color: #11BC9D;
+}
+.bg-green-white{
+    background-color: #EDF6F6;
+}
+.bg-gray{
+    background-color: #D3D3D3;
+}
+.bg-pink{
+    background-color: #F072D4;
+}
+
+img
+{
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+
+.top{
+    /* background-image: url(..//image/bg00_sp.png); */
+    /* background-image: url(..//image/bg00.png); */
+    /* background-size: cover; */
+    background-color: #EDF6F6;
+    height: 680px;
+    width: auto;
+    /* object-fit: cover;  */
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.businesshour{
+    font-size: 12px;
+}
+
+.free{
+    line-height: 120%;
+}
+
+.biz-1{
+    line-height: 100%;
+    font-size: 50px;
+}
+
+.biz-2{
+    line-height: 140%;
+}
+
+.c-fontsize{
+    font-size: 20px;
+}
+
+.sp-top{
+    height: 300px;
+}
+
+.appdl{
+    
+    position: relative;
+}
+
+.sp-1{
+    /* height: 250px;
+    width: auto; */
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    filter: drop-shadow(1px 1px 1px #3f3f54);
+    
+}
+.sp-2{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    top: -380px;
+    right: 0px;
+}
+
+
+
+.btn-1{
+    background-color: #11BC9D;
+    box-shadow: 1px 1px 1px rgb(209, 203, 203);
+}
+
+.btn-1:hover{
+    transform: scale(1.02);
+    font-weight: bold;
+}
+
+.line-green-1{
+    position: relative;
+}
+
+.top-line{
+    position: absolute;
+    width: 250px;
+    height: 3px;
+    right: -15px;
+}
+
+.content{
+    border: 3px solid #F072D4;
+    border-radius: 5px;
+}
+
+.custom{
+    z-index: 3;
+}
+
+.elli{
+    position: relative;
+}
+
+.elli-posi{
+    width: 60%;
+    position: absolute;
+    top: -300px;
+    right: 0px;
+    z-index: 2;
+}
+
+.user{
+    border-radius: 0 0 10px 10px;
+    box-shadow: 15px 15px 0px #11BC9D;
+}
+.come{
+    border-radius: 0 0 10px 10px;;
+}
+
+.intro{
+    border: 2px solid #F072D4;
+    border-radius: 6px;
+}
+
+.sp-3{
+    
+    /* height: 80px;
+    width: auto; */
+}
+
+.appdl-2{
+    position: relative;
+}
+
+.appsp{
+    display: block;
+    height: 360px; 
+    width: auto;
+}
+
+.apppc{
+    /* object-fit: cover; 
+    width: 12%; */
+    /* height: 380px;
+    width: auto;
+    position: absolute;
+    top: -390px;
+    right: 180px; */
+    display: none;
+}
+.appsp-2{
+    /* object-fit: cover;  */
+    width: 24%;
+    position: absolute;
+    top: -490px;
+    right: 10px;
+}
+
+
+/* iPadサイズ レスポンシブ */
+@media screen and (min-width:768px){
+    /* フォント一括管理 */
+    .fontsize-1{
+        font-size: 32px;
+    }
+    .fontsize-2{
+        font-size: 26px;
+    }
+    .fontsize-3{
+        font-size: 18px;
+    }
+    .fontsize-4{
+        font-size: 16px;
+    }
+    .fontsize-5{
+        font-size: 14px;
+    }
+    .fontsize-6{
+        font-size: 13px;
+    }
+    .ai{
+        font-size: 60px;
+    }
+
+    
+    .logo{
+        height: 50px;
+    }
+
+    .top{
+        height: 480px;
+        background-color: #EDF6F6;
+        /* background-image: url(..//image/bg00.png);
+        background-size: cover; */
+    }
+
+    .businesshour{
+        font-size: 14px;
+    }
+
+    .sp-1{
+        height: 260px;
+        width: auto;
+        position: absolute;
+        top: -200px;
+        right: -10px;
+    }
+
+    .top-line{
+        height: 3px;
+        width: 250px;
+        position: absolute;
+        top: -10px;
+        right: -22px;
+    }
+
+    .elli-posi{
+        width: 23%;
+        position: absolute;
+        top: -200px;
+        right: 0px;
+    }
+
+    .appsp{
+        display: block;
+        height: 600px; 
+    }
+
+    .apppc{
+       display: none;
+    }
+
+    .sp-3{
+        height: 600px;
+        width: auto;
+    }
+}
+
+/* PCサイズ レスポンシブ */
+@media screen and (min-width:990px){
+    /* フォント一括管理 */
+    .fontsize-1{
+        font-size: 40px;
+    }
+    .fontsize-2{
+        font-size: 28px;
+    }
+    .fontsize-3{
+        font-size: 20px;
+    }
+    .fontsize-4{
+        font-size: 16px;
+    }
+    .fontsize-5{
+        font-size: 14px;
+    }
+
+    .top{
+        /* background-image: url(..//image/bg00.png); */
+        /* background-size: cover; */
+        background-color: #EDF6F6;
+        height: 540px;
+    }
+
+    .sp-1{
+        height: 330px;
+        position: absolute;
+        top: -230px;
+        right: 10px;
+    }
+
+    .top-line{
+        width: 330px;
+        position: absolute;
+        top: 10px;
+        right: -10px;
+    }
+
+    .elli-posi{
+        width: 24%;
+        position: absolute;
+        top: -300px;
+        right: 0px;
+    }
+
+    .appsp{
+        display: none;
+    }
+
+    .apppc{
+        display: block;
+        height: 360px;
+        position: absolute;
+        top: -370px;
+        right: 100px;
+    }
+
+    .sp-3{
+        display: none;
+    }
+
+
+}
