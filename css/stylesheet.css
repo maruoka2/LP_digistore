@@ -70,13 +70,9 @@ img
 
 
 .top{
-    /* background-image: url(..//image/bg00_sp.png); */
-    /* background-image: url(..//image/bg00.png); */
-    /* background-size: cover; */
     background-color: #EDF6F6;
     height: 680px;
     width: auto;
-    /* object-fit: cover;  */
 }
 
 .logo{
@@ -119,10 +115,10 @@ img
     width: auto; */
     position: absolute;
     top: 10px;
-    right: 15px;
-    filter: drop-shadow(1px 1px 1px #3f3f54);
-    
+    right: 20px;
+    /* filter: drop-shadow(1px 1px 1px #3f3f54); */
 }
+
 .sp-2{
     height: 250px;
     width: auto;
@@ -159,6 +155,10 @@ img
     border-radius: 5px;
 }
 
+.shop-d{
+    height: 1140px;
+}
+
 .custom{
     z-index: 3;
 }
@@ -170,7 +170,7 @@ img
 .elli-posi{
     width: 60%;
     position: absolute;
-    top: -300px;
+    top: -250px;
     right: 0px;
     z-index: 2;
 }
@@ -188,12 +188,6 @@ img
     border-radius: 6px;
 }
 
-.sp-3{
-    
-    /* height: 80px;
-    width: auto; */
-}
-
 .appdl-2{
     position: relative;
 }
@@ -205,17 +199,9 @@ img
 }
 
 .apppc{
-    /* object-fit: cover; 
-    width: 12%; */
-    /* height: 380px;
-    width: auto;
-    position: absolute;
-    top: -390px;
-    right: 180px; */
     display: none;
 }
 .appsp-2{
-    /* object-fit: cover;  */
     width: 24%;
     position: absolute;
     top: -490px;
@@ -244,10 +230,6 @@ img
     .fontsize-6{
         font-size: 13px;
     }
-    .ai{
-        font-size: 60px;
-    }
-
     
     .logo{
         height: 50px;
@@ -256,8 +238,6 @@ img
     .top{
         height: 480px;
         background-color: #EDF6F6;
-        /* background-image: url(..//image/bg00.png);
-        background-size: cover; */
     }
 
     .businesshour{
@@ -280,6 +260,10 @@ img
         right: -22px;
     }
 
+    .shop-d{
+        height: 570px;
+    }
+
     .elli-posi{
         width: 23%;
         position: absolute;
@@ -294,11 +278,6 @@ img
 
     .apppc{
        display: none;
-    }
-
-    .sp-3{
-        height: 600px;
-        width: auto;
     }
 }
 
@@ -322,8 +301,6 @@ img
     }
 
     .top{
-        /* background-image: url(..//image/bg00.png); */
-        /* background-size: cover; */
         background-color: #EDF6F6;
         height: 540px;
     }
@@ -342,10 +319,14 @@ img
         right: -10px;
     }
 
+    .shop-d{
+        height: 700px;
+    }
+
     .elli-posi{
         width: 24%;
         position: absolute;
-        top: -300px;
+        top: -250px;
         right: 0px;
     }
 
@@ -360,10 +341,19 @@ img
         top: -370px;
         right: 100px;
     }
+}
 
-    .sp-3{
-        display: none;
+/* PCサイズ レスポンシブ */
+@media screen and (min-width:1200px){
+
+    .shop-d{
+        height: 800px;
     }
 
-
+    .elli-posi{
+        width: 24%;
+        position: absolute;
+        top: -300px;
+        right: 0px;
+    }
 }

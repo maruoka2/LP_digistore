@@ -1,0 +1,116 @@
+/* レスポンシブ共通   スマホファースト */
+/* フォント一括管理 */
+.fontsize-1{
+    font-size: 30px;
+}
+.fontsize-2{
+    font-size: 28px;
+}
+.fontsize-3{
+    font-size: 18px;
+}
+.fontsize-4{
+    font-size: 16px;
+}
+.fontsize-5{
+    font-size: 14px;
+}
+.fontsize-6{
+    font-size: 11px;
+}
+
+/* 文字色一括管理 */
+.green-black{
+    color: #13231F;
+}
+.green-deep{
+    color: #3E9D9B;
+}
+.green-light{
+    color: #11BC9D;
+}
+.green-white{
+    color: #EDF6F6;
+}
+.gray{
+    color: #D3D3D3;
+}
+.white{
+    color: white;
+}
+
+/* 背景色一括管理 */
+.bg-green-black{
+    background-color: #2D2D2D;
+}
+.bg-green-deep{
+    background-color: #3E9D9B;
+}
+.bg-green-light{
+    background-color: #11BC9D;
+}
+.bg-green-white{
+    background-color: #EDF6F6;
+}
+.bg-gray{
+    background-color: #D3D3D3;
+}
+
+img
+{
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+
+/* iPadサイズ レスポンシブ */
+@media screen and (min-width:768px){
+    /* フォント一括管理 */
+    .fontsize-1{
+        font-size: 50px;
+    }
+    .fontsize-2{
+        font-size: 32px;
+    }
+    .fontsize-3{
+        font-size: 20px;
+    }
+    .fontsize-4{
+        font-size: 16px;
+    }
+    .fontsize-5{
+        font-size: 14px;
+    }
+    .fontsize-6{
+        font-size: 12px;
+    }
+    
+    .logo{
+        height: 60px;
+    }
+}
+
+/* PCサイズ レスポンシブ */
+@media screen and (min-width:990px){
+    /* フォント一括管理 */
+    .fontsize-1{
+        font-size: 50px;
+    }
+    .fontsize-2{
+        font-size: 32px;
+    }
+    .fontsize-3{
+        font-size: 20px;
+    }
+    .fontsize-4{
+        font-size: 16px;
+    }
+    .fontsize-5{
+        font-size: 14px;
+    }
+}
